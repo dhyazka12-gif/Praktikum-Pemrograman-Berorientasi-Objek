@@ -1,0 +1,15 @@
+# Maven build output
+target/
+**/target/
+
+# Compiled Java class files
+*.class
+
+# NetBeans specific
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+.nb-cache/
+.history/
