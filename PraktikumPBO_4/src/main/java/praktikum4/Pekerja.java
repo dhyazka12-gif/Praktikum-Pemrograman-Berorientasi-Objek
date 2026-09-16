@@ -9,16 +9,13 @@ package praktikum4;
  * @author ASUS
  */
 public class Pekerja extends Manusia {
-    // Atribut tambahan khusus Pekerja (private)
     private double gaji;
 
-    // Constructor
     public Pekerja(String nama, int usia, String pekerjaan, double gaji) {
-        super(nama, usia, pekerjaan); // Memanggil constructor dari class Manusia
+        super(nama, usia, pekerjaan); 
         this.gaji = gaji;
     }
 
-    // Getter dan Setter untuk atribut gaji
     public double getGaji() {
         return gaji;
     }
@@ -27,7 +24,6 @@ public class Pekerja extends Manusia {
         this.gaji = gaji;
     }
 
-    // Override metode toString() untuk menampilkan informasi pekerja
     @Override
     public String toString() {
         return "Nama: " + getNama() + 
