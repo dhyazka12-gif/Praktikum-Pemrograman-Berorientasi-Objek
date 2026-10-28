@@ -33,7 +33,7 @@ class Anjing extends Hewan {
     
     @Override
     public void tampilkanInfo() { 
-        System.out.println("--- Informasi Anjing ---");
+        System.out.println("INFORMASI ANJING");
         System.out.println("Nama Hewan : " + nama);
         System.out.println("Jenis      : " + jenis);
         System.out.println("Suara      : Guk-guk!");
